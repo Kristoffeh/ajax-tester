@@ -72,22 +72,11 @@ require 'require/dbconnect.php';
                             <table class="table table-bordered table-hover">
                                 <thead>
                                     <tr>
-                                        <th style="font-family: 'Titillium Web', sans-serif;font-size: 17px;color: #4f4f4f;">ID</th>
                                         <th style="font-family: 'Titillium Web', sans-serif;font-size: 17px;color: #4f4f4f;">Name</th>
                                         <th style="font-family: 'Titillium Web', sans-serif;font-size: 17px;color: #4f4f4f;">Age</th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <tr>
-                                        <td style="font-family: 'Titillium Web', sans-serif;color: #9a9a9a;">Cell 1</td>
-                                        <td style="font-family: 'Titillium Web', sans-serif;color: #9a9a9a;">Cell 2</td>
-                                        <td style="font-family: 'Titillium Web', sans-serif;color: #9a9a9a;">Cell 3</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="font-family: 'Titillium Web', sans-serif;color: #9a9a9a;">Cell 4</td>
-                                        <td style="font-family: 'Titillium Web', sans-serif;color: #9a9a9a;">Cell 5</td>
-                                        <td style="font-family: 'Titillium Web', sans-serif;color: #9a9a9a;">Cell 6</td>
-                                    </tr>
+                                <tbody id="interval">
                                 </tbody>
                             </table>
                         </div>

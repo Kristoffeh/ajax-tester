@@ -1,4 +1,5 @@
     $(document).ready(function() {
+        setInterval(function(){ $("#interval").load('banners.php') }, 250);
     /*$('#login').on('click', function() {
         $("#login_form").show();
         $("#register_form").hide();
